@@ -9,4 +9,4 @@ class Todo(Base):
     # 컬럼 설정
     id = Column(Integer, primary_key= True)
     task = Column(Text)
-    complete = Column(Boolean, default=False)
+    completed = Column(Boolean, default=False)
